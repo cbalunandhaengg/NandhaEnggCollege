@@ -12,7 +12,7 @@ class evenorodd
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the number");
 		number=s.nextInt();
-		if(number>0)
+		if(number>=0)
 		{
 			if((number%2)==0))
 			{
