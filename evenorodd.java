@@ -12,15 +12,20 @@ class evenorodd
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the number");
 		number=s.nextInt();
-		if((number%2)==0)
+		if(number>0)
 		{
-			System.out.println("Even");
+			if((number%2)==0))
+			{
+				System.out.println("Even");
+			}
+			else
+			{
+				System.out.println("Odd");
+			}
 		}
 		else
 		{
-			System.out.println("Odd");
-		}
-		
-		
+			System.out.println("Invalid");
+		}		
 	}
 }
