@@ -12,7 +12,11 @@ class positive
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the Number");
 		number=s.nextInt();
-		if(number>0)
+		if(number==0)
+		{
+			System.out.print("ZERO");
+		}
+		else if(number>0)
 		{
 			System.out.print("POSITIVE");
 		}
